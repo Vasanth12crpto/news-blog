@@ -1,0 +1,45 @@
+
+.b-1{
+    background-image: url(https://epaper.thehindu.com/ccidist-ws/th/th_international/issues/92292/OPS/GAHD3RFCO.1.png?rev=2024-07-25T01:11:44+05:30&cropFromPage=true);
+}
+.b-2{
+    background-image: url(https://epaper.thehindu.com/ccidist-ws/th/th_international/issues/92292/OPS/GAHD3RFCM.1.png?rev=2024-07-25T01:11:44+05:30&cropFromPage=true);
+}
+.b-3{
+    background-image: url(https://epaper.thehindu.com/ccidist-ws/th/th_international/issues/92292/OPS/GAHD3RFCK.1.png?rev=2024-07-25T01:11:44+05:30&cropFromPage=true);
+}
+.b-4{
+    background-image: url(https://epaper.thehindu.com/ccidist-ws/th/th_international/issues/92292/OPS/GAHD3RFCI.1.png?rev=2024-07-25T01:11:44+05:30&cropFromPage=true);
+}
+.b-5{
+    background-image: url(https://epaper.thehindu.com/ccidist-ws/th/th_international/issues/92292/OPS/GAHD3RFCG.1.png?rev=2024-07-25T01:11:44+05:30&cropFromPage=true);
+}
+.b-6{
+
+    background-image: url(https://epaper.thehindu.com/ccidist-ws/th/th_international/issues/92292/OPS/GAHD3RMGT.1.png?rev=2024-07-25T01:11:44+05:30&cropFromPage=true);
+    height: 300px;
+    width: 200px;
+    
+
+}
+
+div{
+    border: 2px solid white;
+    height: 300px;
+    width: 350px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:none ;
+}
+div.container{
+    margin-left: 15%;
+}
+img{
+    margin-left: 30%;
+}
+.container > div :hover{
+    opacity: 0.8;
+    transform: scale(0.91);
+}
